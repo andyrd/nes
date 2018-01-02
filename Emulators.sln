@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emulators.Common", "Emulators.Common\Emulators.Common.csproj", "{07C7A1A6-8774-421C-A866-FAB2FCB15E37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emulators.Core.Mos6502", "Emulators.Mos6502\Emulators.Core.Mos6502.csproj", "{0D14A966-ADAC-4C0F-992D-87AC1327F678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emulators.Test.Mos6502", "Emulators.Test.Mos6502\Emulators.Test.Mos6502.csproj", "{539A81B3-5D69-4B83-809A-ABB8E48F4645}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emulators.Test.NesRomReader", "NesRomReaderTester\Emulators.Test.NesRomReader.csproj", "{AB09ABCA-E2B2-4FD8-A642-9C9ECC246983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emulators.Core.NesPpu", "Emulators.Core.NesPpu\Emulators.Core.NesPpu.csproj", "{5730DABC-3A3F-4A71-8134-1F3B2C7BC5C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emulators.Graphics.WpfNesVideoOut", "Emulators.Graphics.WpfVideoOut\Emulators.Graphics.WpfNesVideoOut.csproj", "{6870E978-FD31-4887-8E59-5EECD8A2AAF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emulators.Application.AndyNES", "Emulators.Application.AndyNES\Emulators.Application.AndyNES.csproj", "{38ACD9AB-E557-4C02-B508-F734D6DC9F3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07C7A1A6-8774-421C-A866-FAB2FCB15E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C7A1A6-8774-421C-A866-FAB2FCB15E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C7A1A6-8774-421C-A866-FAB2FCB15E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C7A1A6-8774-421C-A866-FAB2FCB15E37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D14A966-ADAC-4C0F-992D-87AC1327F678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D14A966-ADAC-4C0F-992D-87AC1327F678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D14A966-ADAC-4C0F-992D-87AC1327F678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D14A966-ADAC-4C0F-992D-87AC1327F678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{539A81B3-5D69-4B83-809A-ABB8E48F4645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{539A81B3-5D69-4B83-809A-ABB8E48F4645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{539A81B3-5D69-4B83-809A-ABB8E48F4645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{539A81B3-5D69-4B83-809A-ABB8E48F4645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB09ABCA-E2B2-4FD8-A642-9C9ECC246983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB09ABCA-E2B2-4FD8-A642-9C9ECC246983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB09ABCA-E2B2-4FD8-A642-9C9ECC246983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB09ABCA-E2B2-4FD8-A642-9C9ECC246983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5730DABC-3A3F-4A71-8134-1F3B2C7BC5C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5730DABC-3A3F-4A71-8134-1F3B2C7BC5C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5730DABC-3A3F-4A71-8134-1F3B2C7BC5C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5730DABC-3A3F-4A71-8134-1F3B2C7BC5C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6870E978-FD31-4887-8E59-5EECD8A2AAF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6870E978-FD31-4887-8E59-5EECD8A2AAF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6870E978-FD31-4887-8E59-5EECD8A2AAF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6870E978-FD31-4887-8E59-5EECD8A2AAF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38ACD9AB-E557-4C02-B508-F734D6DC9F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38ACD9AB-E557-4C02-B508-F734D6DC9F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38ACD9AB-E557-4C02-B508-F734D6DC9F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38ACD9AB-E557-4C02-B508-F734D6DC9F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
